@@ -1,0 +1,49 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <script src="js/live.js"></script>
+    <style>
+        #namaLengkap{
+            width: 100%;
+            padding: 12px 12px;
+            margin: 8px 0;
+        }
+
+        #tombol{
+            background-color: coral;
+            border:none;
+            color:white;
+            padding: 16px 32px;
+            margin: 4x 2px;
+            cursor: pointer;
+        }
+        select{
+            width: 100%;
+            padding: 12px 12px;
+        }
+
+        textArea{
+            width: 100%;
+            padding: 12px 20px;
+            resize: none;
+            margin: 4x 2px;
+        }
+
+    </style>
+</head>
+<body>
+    <form id="myForm">
+        <label for="namaLengkap">Nama Lengkap</label>
+        <input type="text" id="namaLengkap" placeholder="Nama Lengkap">
+        <select name="" id="select">
+            <option value="">Pilih</option>
+            <option value="">1000</option>
+            <option value="">2000</option>
+        </select>
+        <textarea name="" id="textArea" cols="30" rows="10">Isi Disini</textarea>
+        <input type="button" id="tombol" value="Tombol">
+    </form>
+</body>
+</html>
