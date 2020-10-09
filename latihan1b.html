@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/live.js"></script>
+    <title>Latihan 1</title>
+    <style>
+        p{
+            text-align: justify;
+        }
+        body{
+            background-color: wheat;
+        }
+        h1{
+            text-align: center;
+            color: orange;
+        }
+        /* selector class */
+        .container{
+            border: 1px solid black;
+            /* margin 25px 50px 75px 25px */
+            margin-top: 25px;
+            margin-left: 25px;
+            margin-bottom: 75px;
+            margin-right: 50px;
+            padding: 10px;
+            background-color: whitesmoke;
+            border-radius: 20px;
+        }
+        p .penulis{
+            font-style: italic;
+            text-decoration: underline;
+            font-weight: bold;
+        }
+        /* selector id */
+        #jabatan{
+            font-weight: bold;
+        }
+
+        .container .foto {
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .container .foto img{
+            max-width: 100%;
+            height: auto;
+        }
+        .container .foto .deskripsi{
+            text-emphasis: center;
+        }
+    </style>
+</head>
+<body>
+   <div class="container">
+        <h1><a href="https://lifestyle.kompas.com/read/2020/10/09/144918220/hindari-5-hal-berikut-agar-rambut-yang-diwarnai-tak-mudah-pudar" rel="noopener noreferrer" target="_blank" > Hindari 5 Hal Berikut Agar Rambut yang Diwarnai Tak Mudah Pudar</a></h1>
+
+        <div class="foto"><img src="img/rambut.jpg" alt="">
+            <div class="deskripsi">
+                Contoh rambut hasil Balayage yang sudah brassy (pudar).(Dok. L’Oréal Indonesia)
+            </div>
+        </div>
+        
+        <p>Editor <span class="penulis"> Nabilla Tashandra</span>
+        </p>
+
+        <p style="text-align: justify;font-family: serif;" >
+            <b><i>
+                <a href="https://www.kompas.com/" rel="noopener noreferrer" target="_blank" >KOMPAS.com</a> 
+            </i></b>   - Warna rambut yang indah dapat mengangkat penampilan seseorang dan menambah kepercayaan diri.
+        </p>
+        
+        <p>Salah satu teknik pewarnaan rambut yang kini banyak digemari adalah Balayage, atau teknik pewarnaan rambut yang menghasilkan tampilan rambut dengan gradasi yang menawan.</p>    
+        <p>Memiliki rambut dengan warna yang indah tentunya memerlukan perhatian dan perawatan khusus pula. Jika kamu memperlakukannya dengan sembarangan, bisa-bisa warna rambut akan mudah pudar.</p>  
+        <p>"Pada dasarnya rambut yang diwarnai akan pudar dan menguning perlahan-lahan seiring dengan seringnya frekuensi keramas."</p>  
+        <p>"Namun ada hal-hal yang patut diperhatikan untuk menghindari hasil warna rambut cepat kembali pudar atau brassy," ungkap <span id="jabatan">Head of Education L'Oréal Professionnel</span> , Indra Tanudarma melalui keterangan tertulis yang diterima Kompas.com. </p> 
+   </div>
+   
+    
+</body>
+</html>
